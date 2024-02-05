@@ -8,7 +8,11 @@ export function Droppable(props: DroppableProps) {
 
   const style = {
     color: isOver ? 'green' : undefined,
-    padding: '50px',
+    width: '300px',
+    height: '400px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     border: '1px solid #ccc'
   };
 
